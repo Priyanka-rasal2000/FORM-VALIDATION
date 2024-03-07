@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>GeeksforGeeks</h2>   
+<h3>Enter your login credentials</h3> 
+</div>
+ <form onsubmit=" return validate()"action = "msg.html">
+<div class="on">
+ <h5 id="us">Username:</h5>   
+<input id="name"placeholder="Enter your Username" required="text"/><br><br>
+<h5 id="pa">Password:</h5>
+<input id="pass"placeholder="enter your password" required type="password"/>
+</div>
+ <br><br>
+ <button id="btn"type="submit">Submit</button>
+</form>
+</body>
+ <script src="form.js"></script>  
+
+</body>
+</html>

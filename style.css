@@ -1,0 +1,46 @@
+h2{
+    color:hwb(101 2% 29%);
+    text-align: center;
+    font-size: 30px; ;
+
+}
+h3{
+    color:black;
+    text-align: center;
+    
+}
+#us{
+font-size:15px;
+margin-left:560px;
+padding-bottom:0px;
+
+}
+#pa{
+font-size:15px;
+margin-left:560px;
+padding-top: 1px;
+margin-top: 5px;
+
+}
+
+#name{
+    padding:5px 10px 5px 10px;
+    display: inline-block;
+    margin-left:555px;
+    border-radius: 5px;
+}
+#pass{
+    padding:5px 10px 5px 10px;
+    display:inline-block;
+    margin-left:555px;
+    border-radius: 5px;
+
+}
+#btn{
+    color:white;
+    background-color:hwb(101 2% 29%); 
+    text-align: center;
+    margin-left: 600px;
+    
+
+}
